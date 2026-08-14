@@ -29,12 +29,7 @@ Dr. Kristine Christensen is a Professor of Computer Information Systems and Dire
 She serves as Principal Investigator and co-Principal Investigator on multiple nationally funded initiatives related to cybersecurity education, workforce development, faculty preparation, and career awareness. Her current work includes the ExploreCyber project, the NCyTE Community College Cybersecurity Faculty Fellowship, and projects involving AI, critical infrastructure, science gateways, and emerging technologies. She holds a Ph.D. in Community College Leadership and multiple graduate degrees across business, information systems, teaching and learning, and communication, and is completing an M.S. in Cybersecurity at the Georgia Institute of Technology.
 
 ### Faculty Headshot
-
-`Upload the headshot image to the repository's `/images` folder and update the filename below if needed.
-
-`![Faculty Headshot](./images/headshot.png)`
-
----
+Will be posted soon. 
 
 ## Mentorship & Support
 
