@@ -30,7 +30,7 @@ She serves as Principal Investigator and co-Principal Investigator on multiple n
 
 ### Faculty Headshot
 
-Upload the headshot image to the repository's `/images` folder and update the filename below if needed.
+`Upload the headshot image to the repository's `/images` folder and update the filename below if needed.
 
 `![Faculty Headshot](./images/headshot.png)`
 
