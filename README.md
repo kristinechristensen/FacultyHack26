@@ -1,207 +1,240 @@
-# FacultyHack@Gateways 2026 Curriculum Project
+# 🌱 From Sensors to Scientific Computing
+### Integrating Science Gateways, HPC, and AI into an Entry-Level IoT Course
 
-## Project Overview
+**FacultyHack@Gateways 2026 · LAN 120: IoT Fundamentals I · Moraine Valley Community College**
 
-**Project Title:** BRIDGE-CI: From Sensors to Scientific Computing
+> **Project idea:** Help beginning IoT students see how the same process they use with one sensor on a breadboard can scale to authentic datasets, Jupyter notebooks, AI-assisted analysis, and larger scientific computing environments.
 
-This project revises **LAN 120: IoT Fundamentals I**, an entry-level Internet of Things course at Moraine Valley Community College with no prerequisites. The course introduces students to electronics, Arduino programming, sensors, networking, IoT data, privacy, and cybersecurity.
+<p align="center">
+  <a href="https://kristinechristensen.github.io/FacultyHack26/"><strong>🌐 View the Project Website</strong></a>
+  &nbsp;·&nbsp;
+  <a href="./project-materials/"><strong>📁 Browse Project Materials</strong></a>
+  &nbsp;·&nbsp;
+  <a href="./project-materials/poster/ChristensenFacultyHack_Gateways26.pdf"><strong>🖼️ View the Poster</strong></a>
+  &nbsp;·&nbsp;
+  <a href="./about.html"><strong>👤 About Kristine</strong></a>
+</p>
 
-The FacultyHack curriculum redesign expands the course by introducing students to **Science Gateways, Jupyter notebooks, public datasets, cloud computing, and High-Performance Computing (HPC) resources** in an approachable way. Students first gain guided experience working with authentic IoT, industrial, cybersecurity, and critical infrastructure datasets. They learn to run prepared notebook cells, modify selected variables, create visualizations, and interpret results without requiring prior Python or HPC experience.
+---
 
-Students then transfer those skills to a hands-on final project. Each student develops a research question, selects and programs an electronic sensor, collects a manageable original dataset, and uses a scaffolded Jupyter notebook to analyze and visualize the data. The final deliverable includes a technical report that explains the system, methods, findings, limitations, and potential cybersecurity or critical infrastructure applications.
+## 🔌 Project Overview
 
-The broader goal is to increase student awareness of advanced computing resources while showing that the same core process used in data-intensive research can also be applied to a small classroom project:
+This project redesigns **LAN 120: IoT Fundamentals I**, an entry-level course with no prerequisites. Students already learn electronics, Arduino programming, sensors, networking, IoT data, privacy, and security through hands-on work with connected devices.
+
+The FacultyHack redesign adds an approachable pathway into **Science Gateways, Jetstream2, Jupyter notebooks, public datasets, cloud/HPC concepts, visualization, and AI-assisted analysis**. Students first work with authentic datasets in scaffolded notebook activities and then transfer the same process to a final investigation using data collected from their own Arduino-compatible sensor.
+
+### The transferable workflow
 
 **Ask a question → collect data → prepare data → visualize patterns → interpret results → communicate findings**
 
 ---
 
-## Faculty Information
+## 🌉 BRIDGE-CI Framework
 
-**Name:** Dr. Kristine Christensen  
-**Institution:** Moraine Valley Community College  
-**Department/Discipline:** Computer Information Systems / Internet of Things / Cybersecurity  
+| Step | Student Action |
+|---|---|
+| **B — Build** | Establish the system context |
+| **R — Retrieve & Ready** | Obtain and prepare the data |
+| **I — Investigate** | Examine normal operation and patterns |
+| **D — Detect** | Identify anomalies with guided / AI-assisted methods |
+| **G — Gauge** | Consider the evidence and potential impact |
+| **E — Explain** | Communicate findings, limitations, and response |
 
-### Brief Bio / CV
-
-Dr. Kristine Christensen is a Professor of Computer Information Systems and Director of Faculty Development at Moraine Valley Community College. Her teaching and professional work span cybersecurity, networking, web development, IoT, robotics, electronics, engineering technology, manufacturing, automation, and emerging technologies. She focuses on helping students connect hands-on technical learning with real-world applications, career pathways, and interdisciplinary opportunities.
-
-She serves as Principal Investigator and co-Principal Investigator on multiple nationally funded initiatives related to cybersecurity education, workforce development, faculty preparation, and career awareness. Her current work includes the ExploreCyber project, the NCyTE Community College Cybersecurity Faculty Fellowship, and projects involving AI, critical infrastructure, science gateways, and emerging technologies. She holds a Ph.D. in Community College Leadership and multiple graduate degrees across business, information systems, teaching and learning, and communication, and is completing an M.S. in Cybersecurity at the Georgia Institute of Technology.
-
-### Faculty Headshot
-Will be posted soon. 
-
-## Mentorship & Support
-
-**Assigned Technical Mentors:**  
-- **Dr. John Holmen**, Oak Ridge National Laboratory (ORNL)  
-- **Charlie Dey**, Texas Advanced Computing Center (TACC)  
+The emphasis is not advanced programming. The emphasis is helping beginning students reason through a data-centered IoT investigation with support from structured notebooks and authentic examples.
 
 ---
 
-## Project Goals
+## 🎯 Course Goals
 
-- Introduce entry-level IoT students to Science Gateways, public datasets, Jetstream2, Jupyter notebooks, cloud computing, and HPC resources.
-- Develop foundational notebook and visualization skills through scaffolded activities designed for students with no prior Python or HPC experience.
-- Help students run prepared code, modify selected variables, visualize authentic IoT and industrial data, and interpret the results.
-- Introduce AI-assisted anomaly detection, cybersecurity, and critical infrastructure applications in an approachable manner.
-- Guide students in transferring these skills to a sensor-based final project in which they collect, analyze, visualize, and report on their own data.
-
----
-
-## Science Gateway Goal
-
-Develop a Science Gateways-based learning experience that enables introductory community college IoT students to analyze authentic and student-generated sensor data using Jupyter notebooks and Jetstream resources, helping them understand how IoT data can be visualized, analyzed, secured, and scaled beyond a single device.
+- ⚡ **Electronics & Schematics:** Read basic schematics, identify components, and construct Arduino-based circuits and sensor systems.
+- 🔧 **IoT Hardware & Programming:** Build and program IoT devices using Arduino, sensors, and embedded-system concepts.
+- 📡 **Networking & Data:** Explain how IoT devices communicate and collect sensor data for analysis.
+- 📊 **Data Analysis:** Use scaffolded Jupyter notebooks to load, visualize, and interpret sensor data.
+- ☁️ **Science Gateways / HPC / AI:** Use Jetstream2, public datasets, cloud/HPC resources, and AI-assisted tools to explore how IoT data can be analyzed beyond a single device.
 
 ---
 
-## Science Gateway Resources & Technology Notes
+## 📚 Learning Progression
 
-### Tools Used
-
-**Jetstream2**  
-* **Description:** A cloud-based research and education computing environment that provides access to virtual machines and advanced computing resources.
-* **Course Use:** Students will be introduced to browser-based computing environments and use prepared Jupyter resources to explore public IoT and sensor datasets. The goal is to expose students to computing beyond the desktop without requiring prior HPC experience.
-
-**Jupyter Notebooks**  
-* **Description:** Interactive computational documents that combine executable code, explanatory text, data, and visualizations.
-* **Course Use:** Students will use scaffolded notebooks to load datasets, run prepared Python code, modify selected variables, create visualizations, and interpret findings. Students will later adapt a notebook template to analyze data collected from their own Arduino sensor project.
-
-**Public IoT and Industrial Datasets**  
-* **Description:** Authentic datasets that allow students to explore sensor behavior, industrial systems, cybersecurity, and critical infrastructure applications.
-* **Course Use:** Public datasets will provide guided practice before students collect and analyze their own data.
-
-### Proposed Datasets
-
-| Dataset | Hosted By | What It Contains | Planned Course Use |
-|---|---|---|---|
-| **MetroPT-3** | UCI Machine Learning Repository | Time-series sensor data from a metro train air-production system, including pressure, temperature, motor current, and equipment status signals | Introduce Jupyter, sensor-data exploration, descriptive statistics, time-series visualization, thresholds, and anomaly identification |
-| **RT-IoT2022** | UCI Machine Learning Repository | IoT network traffic with normal activity and labeled cyberattacks | Guided introduction to AI-assisted cybersecurity analysis, normal vs. malicious behavior, and false positives/false negatives |
-| **TON_IoT** | UNSW Canberra | IoT/IIoT telemetry, network traffic, and Windows/Linux system data across edge, fog, and cloud layers | Demonstrate connections among IoT, IT, OT, cybersecurity, AI, and critical infrastructure |
-| **Student-Generated Sensor Data** | LAN 120 students | Small datasets collected from student-selected Arduino sensors | Final project in which students develop a research question, collect data, visualize results, interpret findings, and write a technical report |
-
-### Implementation Notes
-
-* **Session 1:** Explore Science Gateway and HPC concepts, account requirements, Jetstream2 access, and possible classroom workflows for a no-prerequisite community college course.
-* **Session 2:** Review beginner-friendly Jupyter notebook structures, visualization activities, and public IoT/industrial datasets that can be adapted for guided student practice.
-* **Session 3:** Develop a scaffolded progression from public datasets to student-generated sensor data, including notebook templates, variable modification, visualization, and final-project assessment.
-* **Ongoing:** Refine account setup, reusable environments, notebook distribution, dataset preparation, and strategies for maintaining the materials in future course sections.
+| Stage | What Students Do |
+|---|---|
+| **1 · Awareness** | Meet Science Gateways, Jupyter, public datasets, cloud/HPC concepts, visualization, and AI-assisted analysis |
+| **2 · Guided Practice** | Run prepared notebook cells, change selected variables, create graphs, and interpret results |
+| **3 · Transfer** | Collect original sensor data, analyze a CSV in Jupyter, and communicate findings |
 
 ---
 
-## Science Gateway Resource Needs / Questions
+## 📓 Notebook Sequence
 
-- Guidance selecting an appropriate Science Gateway, cloud, or HPC environment.
-- Assistance setting up instructor and student accounts and educational access.
-- Help creating a beginner-friendly, browser-based Jupyter environment.
-- Recommendations for introductory IoT, sensor, cybersecurity, and critical infrastructure datasets.
-- Support adapting or developing scaffolded notebooks for data exploration and visualization.
-- Guidance for allowing students to upload and analyze data collected from their own sensors.
-- Recommendations for maintaining and reusing the environment and notebooks in future semesters.
+<table>
+<tr>
+<td width="33%" valign="top">
+<strong>1 · Sensor Data Exploration</strong><br><br>
+Students load and inspect authentic sensor data, create time-series visualizations, and describe patterns.<br><br>
+<a href="./project-materials/notebook-previews/01_sensor_data_exploration_preview.png">View preview →</a>
+</td>
+<td width="33%" valign="top">
+<strong>2 · IoT Anomaly Detection</strong><br><br>
+Students use guided AI-assisted analysis and interpret a confusion matrix, including false positives and false negatives.<br><br>
+<a href="./project-materials/notebook-previews/02_iot_anomaly_detection_preview.png">View preview →</a>
+</td>
+<td width="33%" valign="top">
+<strong>3 · Arduino Sensor Investigation</strong><br><br>
+Students transfer the workflow to a small dataset they collect themselves and use visual evidence to answer a research question.<br><br>
+<a href="./project-materials/notebook-previews/03_arduino_sensor_investigation_preview.png">View preview →</a>
+</td>
+</tr>
+</table>
+
+> **Note:** The current repository package includes visual notebook previews. Executable `.ipynb` files can be added to the same materials structure when finalized.
 
 ---
 
-## Planned Learning Progression
+## 🗂️ Datasets
 
-### 1. Awareness and Exploration
+| Dataset | Source | Course Use |
+|---|---|---|
+| **MetroPT-3** | [UCI Machine Learning Repository](https://archive.ics.uci.edu/dataset/791/metropt%203%20dataset) | Jupyter basics, industrial sensor visualization, patterns, thresholds |
+| **RT-IoT2022** | [UCI Machine Learning Repository](https://archive.ics.uci.edu/dataset/942/rt-iot2022) | AI-assisted classification, anomaly interpretation, confusion matrices |
+| **TON_IoT** | [UNSW Canberra](https://research.unsw.edu.au/projects/toniot-datasets) | Optional extension into larger IoT/IIoT, IT/OT, and system data |
+| **Student Sensor Data** | LAN 120 students | Final project using a small original CSV dataset |
 
-Students are introduced to:
+---
 
-- Science Gateways
-- Cloud and HPC resources
-- Public research datasets
-- Jupyter notebooks
-- Data visualization
-- AI-assisted analysis
-- IoT cybersecurity
-- IT/OT environments
-- Critical infrastructure applications
+## 🔧 Final Sensor Investigation
 
-### 2. Guided Notebook Practice
-
-Students use scaffolded notebooks to:
-
-- Open and run notebook cells
-- Load and inspect a dataset
-- Select variables
-- Filter data
-- Calculate simple descriptive statistics
-- Create and modify visualizations
-- Change selected analysis parameters
-- Interpret patterns and anomalies
-
-### 3. Student Sensor Investigation
-
-Students transfer the same workflow to a manageable final project:
+Students:
 
 1. Develop a research question.
 2. Select an Arduino-compatible sensor.
-3. Build or simulate the circuit.
-4. Program the Arduino.
-5. Determine a data-collection method and sampling interval.
-6. Collect and export a small dataset.
-7. Load the data into a scaffolded Jupyter notebook.
-8. Clean, summarize, and visualize the data.
-9. Interpret the results.
-10. Explain limitations and possible next steps.
-11. Connect the sensor or analysis to IoT cybersecurity or critical infrastructure.
-12. Communicate findings in a technical report.
+3. Build the circuit and program the Arduino.
+4. Determine a data-collection method and sampling interval.
+5. Collect and export a manageable dataset.
+6. Load the CSV into a scaffolded Jupyter notebook.
+7. Create visualizations and interpret the evidence.
+8. Explain limitations and next steps.
+9. Communicate the investigation in a technical report and presentation.
+
+**[Open the Final Project PDF](./project-materials/final-project/LAN_120_Final_Project.pdf)**
+
+### Grade computation
+
+| Grade Component | Weight |
+|---|---:|
+| Assignments | 65% |
+| **BRIDGE-CI Final Project** | **20%** |
+| Arduino Certification Exam | 15% |
+| **Total** | **100%** |
 
 ---
 
-## Student Assessment
+## 🗓️ Key Content by Week
 
-Students will be assessed on their ability to apply the process rather than on producing a large dataset or advanced machine-learning model.
-
-### Guided Activities
-
-Students will demonstrate that they can:
-
-- Navigate and run a Jupyter notebook.
-- Modify selected variables.
-- Create appropriate visualizations.
-- Interpret what the data show.
-- Recognize anomalies and limitations.
-- Explain the purpose of Science Gateways, HPC, and public datasets.
-
-### Final Project
-
-The final project will assess:
-
-- **Research question and project plan**
-- **Electronics and Arduino programming**
-- **Data collection and organization**
-- **Jupyter notebook use**
-- **Visualization and interpretation**
-- **Cybersecurity / critical infrastructure connection**
-- **Technical report and communication of findings**
+[![Key Content by Week timeline](./assets/images/key-content-by-week-timeline.png)](./assets/images/key-content-by-week-timeline.png)
 
 ---
 
-## Deliverables Checklist
+## 📁 Repository Structure
 
-- [ ] **Original Syllabus:** [original_syllabus.pdf](./original_syllabus.pdf)
-- [ ] **Revised Syllabus:** [revised_syllabus.pdf](./revised_syllabus.pdf)
-- [ ] **Gateways 2026 Poster:** [poster_final.pdf](./poster_final.pdf)
-- [ ] **SGX3 Blog Post Draft:** [blog_post.md](./blog_post.md)
-- [ ] **Guided Jupyter Notebook(s):** [notebooks](./notebooks/)
-- [ ] **Final Project Notebook Template:** [student_sensor_project.ipynb](./notebooks/student_sensor_project.ipynb)
-- [ ] **Dataset Documentation:** [datasets](./datasets/)
-- [ ] **Student Project Instructions:** [project_instructions.md](./project_instructions.md)
+```text
+FacultyHack26/
+├── index.html                                  # Main GitHub Pages website
+├── about.html                                  # About Kristine + résumé link
+├── README.md                                   # Repository overview
+├── PACKAGE_CONTENTS.md                         # Complete package inventory
+├── assets/
+│   ├── styles.css                              # Shared website styling
+│   ├── Kristine-Christensen-Resume-2026.pdf
+│   └── images/
+│       ├── kristine-christensen.jpg
+│       ├── john-holmen.jpg
+│       ├── charlie-dey.jpg
+│       └── key-content-by-week-timeline.png
+└── project-materials/
+    ├── index.html                              # Web-based materials index
+    ├── README.md                               # Markdown materials index
+    ├── assets/
+    │   ├── 2026ChristensenKristine.pdf
+    │   ├── kristine-christensen.jpg
+    │   ├── JohnHolmen.jpg
+    │   └── CharlieDey.jpg
+    ├── syllabus/
+    │   ├── LAN_120_Initial_Syllabus.pdf
+    │   └── LAN_120_Revised_Syllabus.pdf
+    ├── final-project/
+    │   └── LAN_120_Final_Project.pdf
+    ├── datasets/
+    │   └── student_dataset_guide.md
+    ├── notebook-previews/
+    │   ├── 01_sensor_data_exploration_preview.png
+    │   ├── 02_iot_anomaly_detection_preview.png
+    │   └── 03_arduino_sensor_investigation_preview.png
+    ├── poster/
+    │   ├── ChristensenFacultyHack_Gateways26.pdf
+    │   └── final_poster_preview.png
+    └── resources/
+        ├── DATASET_GUIDE.md
+        ├── STUDENT_DATASET_GUIDE.md
+        └── working_README.md
+```
 
 ---
 
-## Event Details
+## 📦 Project Materials
 
-* **Virtual Hackathon:** August 3–14, 2026
-* **In-Person Conference:** [Gateways 2026](https://na.eventscloud.com/ereg/newreg.php?eventid=874568&#) | September 23–25, 2026 | Washington, D.C.
+| Area | Files |
+|---|---|
+| **Syllabi** | [Initial syllabus](./project-materials/syllabus/LAN_120_Initial_Syllabus.pdf) · [Revised syllabus](./project-materials/syllabus/LAN_120_Revised_Syllabus.pdf) |
+| **Final Project** | [LAN 120 Final Project](./project-materials/final-project/LAN_120_Final_Project.pdf) |
+| **Dataset Guides** | [Student dataset guide](./project-materials/datasets/student_dataset_guide.md) · [Dataset guide](./project-materials/resources/DATASET_GUIDE.md) · [Expanded student guide](./project-materials/resources/STUDENT_DATASET_GUIDE.md) |
+| **Notebook Previews** | [Sensor exploration](./project-materials/notebook-previews/01_sensor_data_exploration_preview.png) · [Anomaly detection](./project-materials/notebook-previews/02_iot_anomaly_detection_preview.png) · [Arduino investigation](./project-materials/notebook-previews/03_arduino_sensor_investigation_preview.png) |
+| **Poster** | [Poster PDF](./project-materials/poster/ChristensenFacultyHack_Gateways26.pdf) · [Poster preview](./project-materials/poster/final_poster_preview.png) |
+| **Faculty** | [About Kristine](./about.html) · [Résumé PDF](./assets/Kristine-Christensen-Resume-2026.pdf) |
+| **All Materials** | [Open the project-materials index](./project-materials/) |
 
 ---
 
-## Event Citation
+## 👥 FacultyHack Team
 
-This project was developed as part of **SGX3's 5th Annual FacultyHack@Gateways 2026**. FacultyHack is a hands-on program designed to empower educators across disciplines to integrate High-Performance Computing (HPC) and Artificial Intelligence (AI) tools directly into their curricula.
+**Dr. Kristine Christensen**  
+Faculty Participant · Moraine Valley Community College  
+[About Kristine](./about.html) · [Résumé](./assets/Kristine-Christensen-Resume-2026.pdf)
 
-For more information, event archives, and resources, please visit the official event site:
+**Dr. John Holmen**  
+Faculty Mentor · Oak Ridge National Laboratory
 
-**[FacultyHack@Gateways 2026 Official Site](https://hackhpc.github.io/facultyhack-gateways26)**
+**Charlie Dey**  
+Technical Collaborator · Texas Advanced Computing Center
+
+---
+
+## 🖼️ Conference Poster
+
+[![FacultyHack@Gateways 2026 poster preview](./project-materials/poster/final_poster_preview.png)](./project-materials/poster/ChristensenFacultyHack_Gateways26.pdf)
+
+**[Open the full poster PDF →](./project-materials/poster/ChristensenFacultyHack_Gateways26.pdf)**
+
+---
+
+## 🌐 Publishing with GitHub Pages
+
+This repository is **website-first**. The root `index.html` is the project landing page.
+
+1. Upload the repository contents to the `main` branch.
+2. Open **Settings → Pages** in GitHub.
+3. Under **Build and deployment**, select **Deploy from a branch**.
+4. Choose **main** and **/(root)**.
+5. Save.
+
+The site should then be available at:
+
+**https://kristinechristensen.github.io/FacultyHack26/**
+
+---
+
+## FacultyHack@Gateways 2026
+
+This project was developed for **FacultyHack@Gateways 2026**, a curriculum-development experience focused on bringing advanced computing, AI, and Science Gateway resources into teaching and learning.
+
+**Official FacultyHack@Gateways 2026 site:**  
+https://hackhpc.github.io/facultyhack-gateways26
